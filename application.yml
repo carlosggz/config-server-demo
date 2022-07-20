@@ -1,12 +1,4 @@
 app:
-  eureka:
-    host: localhost
-    port: 8761
-    username: myuser
-    password: mypass
-  config-server:
-    username: config-user
-    password: config-password
   rabbitmq:
     username: myuser
     password: mypass

@@ -8,5 +8,5 @@ app:
     username: myuser
     password: mypass
     authentication-database: admin
-    uri-suffix: ?retryWrites=false
+    uri-suffix: ?retryWrites=false&authSource=admin
     transaction-enabled: false

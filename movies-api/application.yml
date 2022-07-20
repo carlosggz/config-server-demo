@@ -1,0 +1,10 @@
+app:
+  port: 8081
+  allow-swagger: true
+  postgres:
+    host: localhost
+    port: 5433
+    database: postgres
+    schema: movies_schema
+    username: myuser
+    password: mypass

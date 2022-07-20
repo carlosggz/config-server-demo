@@ -1,0 +1,12 @@
+app:
+  port: 8082
+  allow-swagger: true
+  mongo:
+    host: localhost
+    port: 27017
+    database: test
+    username: myuser
+    password: mypass
+    authentication-database: admin
+    uri-suffix: ?retryWrites=false
+    transaction-enabled: false

@@ -7,3 +7,13 @@ app:
   timeout-seconds: 10
   backoff-seconds: 3
   backoff-retries: 3
+  auth:
+    client-id: demo-client
+    client-secret: this-is-my-secret
+    auth-url: http://${app.auth.host}:${app.auth.port}/realms/${app.auth.realm}/protocol/openid-connect/token
+    issuer-uri: http://${app.auth.host}:${app.auth.port}/realms/${app.auth.realm}
+    grant-type: password
+    scope: profile
+    realm: demo-realm
+    host: localhost
+    port: 9000

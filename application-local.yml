@@ -1,3 +1,14 @@
 app:
   rabbitmq:
     host: rabbitmq
+
+
+EUREKA_URL: http://myuser:mypass@eureka-server:8761/eureka
+EUREKA_USERNAME: myuser
+EUREKA_PASSWORD: mypass
+
+CONFIG_PORT: 8084
+CONFIG_USERNAME: ConfigUser
+CONFIG_PASSWORD: ConfigPassword
+
+ZIPKIN_URL: http://zipkin:9411/

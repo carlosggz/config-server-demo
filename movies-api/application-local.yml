@@ -1,0 +1,4 @@
+app:
+  allow-swagger: false
+  postgres:
+    host: postgres

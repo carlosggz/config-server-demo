@@ -1,3 +1,5 @@
 app:
   rabbitmq:
     host: rabbitmq
+  zipkin:
+    url: http://zipkin:9411/

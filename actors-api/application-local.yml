@@ -1,4 +1,3 @@
 app:
-  allow-swagger: true
   mongo:
     host: mongo

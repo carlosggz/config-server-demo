@@ -1,3 +1,4 @@
 app:
   auth:
     host: auth
+    port: 9009

@@ -6,5 +6,5 @@ app:
     port: 5433
     database: postgres
     schema: movies_schema
-    username: myuser
-    password: mypass
+    username: {cipher}3ab48351522a6de164a979b2d3d5f05d68e72f628130f1b472dcc3787802e3be
+    password: {cipher}03c7b06a0f19ba11e03a4aa58b46f1db67e2e6ab3ff75e70d106c1ce2be8701f

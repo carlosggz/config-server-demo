@@ -9,7 +9,7 @@ app:
   backoff-retries: 3
   auth:
     client-id: demo-client
-    client-secret: this-is-my-secret
+    client-secret: {cipher}38d29793895bfccd8f1b2b936e04b722c037138deb519aa95fecb98c9456826887fde14b2e5968a0ca73922f93e94bd8
     auth-url: http://${app.auth.host}:${app.auth.port}/realms/${app.auth.realm}/protocol/openid-connect/token
     issuer-uri: http://${app.auth.host}:${app.auth.port}/realms/${app.auth.realm}
     grant-type: password

@@ -5,8 +5,8 @@ app:
     host: localhost
     port: 27017
     database: test
-    username: myuser
-    password: mypass
+    username: {cipher}3ab48351522a6de164a979b2d3d5f05d68e72f628130f1b472dcc3787802e3be
+    password: {cipher}03c7b06a0f19ba11e03a4aa58b46f1db67e2e6ab3ff75e70d106c1ce2be8701f
     authentication-database: admin
     uri-suffix: ?retryWrites=false&authSource=admin
     transaction-enabled: false
